@@ -1,0 +1,23 @@
+{
+    "test_case": "PulseGenerator",
+    "promo_node": "P1",
+    "dose_specs": [5, 75, 5],
+    "max_part": 2, 
+    "inhibitor": true,
+    "DsRed_inhibitor": true,
+    "num_dict": {
+        "1": 50,
+        "2": 150
+    },
+    "n_gen": 50,
+    "probability_crossover": 0.523549,
+    "probability_mutation": 0.961384,
+    "mutate_dose": true,
+    "pop": false,
+    "num_processes": 1,
+    "obj_labels": [
+        "t_pulse",
+        "prominence_rel"
+    ],
+    "max_time": 126
+}

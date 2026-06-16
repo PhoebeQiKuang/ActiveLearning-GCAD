@@ -1,0 +1,30 @@
+name: GCAD_env
+channels:
+  - defaults
+dependencies:
+  - python=3.10.15
+  # - jupyter=1.0.0  # REMOVED to fix Windows error
+  - ipykernel # Added for Jupyter compatibility
+  - matplotlib=3.8 # Relax version to avoid conflicts
+  - numpy=1.26.4
+  - pandas=2.2.1
+  - pip=24.2
+  - scikit-learn=1.2.2
+  - scipy=1.11.4
+  - seaborn=0.12.2
+  - statistics=1.0.3.5
+  
+  - pip:
+      - alive-progress==3.1.5
+      - brokenaxes==0.6.2
+      - joblib==1.3.2
+      - networkx==3.1
+      - parmoo==0.3.1
+      - pymoo==0.6.0
+      - tqdm==4.66.4
+  
+  
+  
+  
+  
+  

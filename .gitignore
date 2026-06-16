@@ -1,0 +1,12 @@
+results/
+run_logs/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+.DS_Store
+
+# workspace/ runtime outputs — prior cloud is tracked; everything else is generated
+workspace/calibrated_parts.pkl
+workspace/designer_decisions_*.pkl
